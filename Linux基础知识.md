@@ -37,6 +37,7 @@ drwxrwxrwx 3 root root  4096 Jun 24 00:25 91yunserverspeeder
 	- w(write):文件夹本身可写,可编辑,可删除,对子文件/子文件夹而言可新增、更名、移动、删除(删除这个要注意,如果当前文件/文件夹对于当前用户而言即便是只读甚至不可读的,但是对上级目录有w权限的当前用户仍然可以删除这个子文件/子文件夹)。
 	- x(execute):可以进入该文件夹(cd命令)。
 	- -:无权限。  
+
 然后看`drwxrwxrwx 3 root root`这里,前面`drwxrwxrwx`可以拆分为`[d][rwx][rwx][rwx]`,对应的是`[文件类型][owner权限][group权限][others权限]`,之后的第一个`root`,就是文件的当前拥有者(owner),第二个root,就是文件所属群组(group),中间`3`指连结数,暂且不管。
 
 
