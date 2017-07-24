@@ -38,7 +38,7 @@ drwxrwxrwx 3 root root  4096 Jun 24 00:25 91yunserverspeeder
 	- x(execute):可以进入该文件夹(cd命令)。
 	- -:无权限。  
 
-然后看`drwxrwxrwx 3 root root`这里,前面`drwxrwxrwx`可以拆分为`[d][rwx][rwx][rwx]`,对应的是`[文件类型][owner权限][group权限][others权限]`,之后的第一个`root`,就是文件的当前拥有者(owner),第二个root,就是文件所属群组(group),中间`3`指连结数,暂且不管。
+然后看`drwxrwxrwx 3 root root`这里,前面`drwxrwxrwx`可以拆分为`[d][rwx][rwx][rwx]`,对应的是`[文件类型][owner权限][group权限][others权限]`,其中文件类型`-`指普通文件,`d`指文件夹。之后的第一个`root`,就是文件的当前拥有者(owner),第二个root,就是文件所属群组(group),中间`3`指连结数,暂且不管。
 
 
 
