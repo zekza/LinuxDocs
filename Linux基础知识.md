@@ -51,9 +51,7 @@ d | rwx | rwx | rwx | 3 | root | root
 
 ### 1.4 Linux文件结构简述
 &emsp;&emsp;Linux和windows管理文件的方式不同,Linux下,是以树形结构来展示的,如下:  
-<center>
 ![树形结构](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/dirtree.gif?raw=true)
-</center>  
 <center>树形结构示意图</center>
 Linux没有C盘D盘这种说法,而是以`"/"`为根目录,向下扩展。举个例子,对于`arod`目录,那么它的完整路径就是`/home/arod`。
 
@@ -66,7 +64,8 @@ Linux没有C盘D盘这种说法,而是以`"/"`为根目录,向下扩展。举个
 ![绿色版下载说明](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xshelldwurl.png?raw=true)  
 
 ### 2.2 XShell使用
-- [配置步骤]()
-自己看情况选择吧,之后进入到主页面:  
+- [配置步骤](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/XShell%E4%BD%BF%E7%94%A8.md)  
+,之后进入到主页面:  
 ![使用步骤6](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xs6.png?raw=true)  
 
+这里
