@@ -58,7 +58,10 @@ Linux没有C盘D盘这种说法,而是以`"/"`为根目录,向下扩展。举个
 ## 2.Linux远程工具
 &emsp;&emsp;Linux有很多远程工具,例如Putty、XShell、SecureCRT、SSH Secure Shell Slient、openssh等等,可以自行选择,这里只介绍XShell。  
 
-### XShell
+### 2.1 XShell下载
 - [官方下载地址](https://www.netsarang.com/download/down_xsh.html)
 - [绿色版下载地址](https://www.portablesoft.org/xshell/)
 <center>![绿色版下载说明](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xshelldwurl.png?raw=true)</center>
+
+### 2.2 XShell使用
+&emsp;&emsp;因为是我这里用的是绿色版,所以直接打开运行就可以,然后就会出现下面这个窗口:
