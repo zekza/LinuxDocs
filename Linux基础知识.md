@@ -39,7 +39,7 @@ drwxrwxrwx 3 root root  4096 Jun 24 00:25 91yunserverspeeder
 - 针对文件:
 	- r(read):该文件可被读取。
 	- w(write):该文件可被编辑。
-	- x(execute):该文件可被执行(针对sh等类型的s文件,txt这种文本文件就无所谓了)。
+	- x(execute):该文件可被执行(针对sh等类型的文件,txt这种文本文件就无所谓了)。
 	- -:无权限。
 - 针对目录:
 	- r(read):该目录可被查询(ls命令)。
@@ -101,7 +101,7 @@ command [-options] parameter1 parameter2 ...
 其次,Linux系统命令对大小写敏感,例如`cd`命令,输入`CD`就会报`command not found`这样的错误。
 
 ### 3.3 列出文件--ls
-平常,我们登录进入XShell后,首先会想查看下当前目录下有哪些文档,就可以使用`ls`命令:
+平常,我们登录进入XShell后,经常会想查看下当前目录下有哪些文档,就可以使用`ls`命令:
 ```
 [root@localhost home]# ls
 admin                             libmcrypt-2.5.8-9.el6.x86_64.rpm             serverspeederbin.txt
@@ -111,7 +111,7 @@ epel-release-latest-6.noarch.rpm  mysql57-community-release-el6-11.noarch.rpm  s
 ls命令有很多参数,可以使用`ls --help`来查看,不过我们常用的只有几个:
 ```
 -a, --all                  显示所有文件(包括隐藏文件)
--h, --human-readable       和-l一起用时,展示具有可读性的文件大小格式,比如1K 234M 2G
+-h, --human-readable       和-l一起用时,展示具有可读性的文件大小,比如1K 234M 2G
 -l                         显示详细信息
 ```
 使用示例:
@@ -139,7 +139,7 @@ drwx------   7 admin admin  4096 Jul 25 08:19 admin
 -rw-r--r--   1 root  root  25664 Apr 27 06:45 mysql57-community-release-el6-11.noarch.rpm
 -rw-r--r--   1 root  root  96179 Jun 24 00:23 serverspeederbin.txt
 -rw-r--r--   1 root  root   6156 Jun 24 00:23 serverspeeder.sh
--rw-r--r--   1 root  root      0 Jul 25 08:27 .test
+-rw-r--r--   1 root  root      0 Jul 25 08:27 .test   #这是一个隐藏文件
 
 [root@localhost home]# ls -alh
 total 256K
@@ -185,3 +185,39 @@ drwx------   7 admin admin 4.0K Jul 25 08:19 admin
 /home
 ```
 
+### 3.4 查看文件--cat,tail
+
+
+### 3.5 编辑文件--nano,vi
+
+### 3.6 创建目录--mkdir
+
+### 3.7 删除文件/目录--rm
+
+### 3.8 复制文件/目录--cp
+
+### 3.9 移动文件/目录--mv
+
+### 3.10 修改权限--chmod
+
+### 3.11 修改文件/目录的所属用户/群组--chown,chgrp
+
+### 3.12 查询进程--ps
+
+### 3.13 结束进程--kill
+
+### 3.14 查看系统状态--top
+
+### 3.15 查看磁盘空间使用情况--df
+
+### 3.16 远程登录--ssh
+
+### 3.17上传/下载--rz,sz
+
+## 4.windows下检测Linux主机的网络及端口--ping/telnet
+
+
+## 5.tomcat的安装
+
+## 6.网址推荐
+[鳥哥的 Linux 私房菜](http://linux.vbird.org)
