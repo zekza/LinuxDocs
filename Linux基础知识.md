@@ -71,7 +71,8 @@ d | rwx | rwx | rwx | 3 | root | root
 
 &emsp;&emsp;&emsp;&emsp;![使用步骤6](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xs6.png?raw=true)  
 
-这里,注意下登录信息下面那一行:
+这里,注意下登录信息下面那一行`[root@study ~]#`:  
+
 root | study | ~ | #
 ---|---|---|---
 当前用户 | 主机名称 | 当前所在目录 | 用户类型
