@@ -1,5 +1,5 @@
-[TOC
-[用户及用户权限(#13-用户群组及权限)
+[TOC]
+[用户及用户权限](#13-用户群组及权限)
 # Linux基础知识
 ## 1. 一些基本概念
 ### 1.1 Linux是什么?
@@ -50,4 +50,15 @@ d | rwx | rwx | rwx | 3 | root | root
 再之后的第一个`root`,就是文件的当前拥有者(owner),第二个root,就是文件所属群组(group),中间`3`指连结数,暂且不管。
 
 ### 1.4 Linux文件结构简述
-&emsp;&emsp;Linux和windows管理文件的方式不同,Linux下,是以树形结构来
+&emsp;&emsp;Linux和windows管理文件的方式不同,Linux下,是以树形结构来展示的,如下:  
+<center>![树形结构](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/dirtree.gif?raw=true)</center>  
+<center>树形结构示意图</center>
+Linux没有C盘D盘这种说法,而是以`"/"`为根目录,向下扩展。举个例子,对于`arod`目录,那么它的完整路径就是`/home/arod`。
+
+## 2.Linux远程工具
+&emsp;&emsp;Linux有很多远程工具,例如Putty、XShell、SecureCRT、SSH Secure Shell Slient、openssh等等,可以自行选择,这里只介绍XShell。  
+
+### XShell
+- [官方下载地址](https://www.netsarang.com/download/down_xsh.html)
+- [绿色版下载地址](https://www.portablesoft.org/xshell/)
+<center>![绿色版下载]()</center>
