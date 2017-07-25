@@ -72,14 +72,14 @@ d | rwx | rwx | rwx | 3 | root | root
 
 &emsp;&emsp;进入到操作主页面:  
 
-&emsp;&emsp;&emsp;&emsp;![使用步骤6](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xs6.png?raw=true)  
+&emsp;&emsp;![使用步骤6](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xs6.png?raw=true)  
 
-&emsp;&emsp;这里,注意下登录信息下面那一行`[root@study ~]#`:  
+这里,注意下登录信息下面那一行`[root@study ~]#`:  
 
 root | study | ~ | #
 ---|---|---|---
 当前用户 | 主机名称 | 当前所在目录 | 用户类型  
 
-&emsp;&emsp;其中,主机类型不用去关注,后面的用户类型,只有`root`为`#`,普通用户则为`$`。  
+其中,主机类型不用去关注,后面的用户类型,只有`root`为`#`,普通用户则为`$`。  
 
 ## 3 常用命令介绍
