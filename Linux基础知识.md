@@ -20,7 +20,7 @@ CentOS | Debian
 &emsp;&emsp;那么区分用户和群组有什么好处呢?简单来说,区分用户和群组,是便于对不同的文件或目录进行管理以及安全的考虑。为文件或目录赋予不同的权限后,用户就只能对某些文件或目录进行操作,从而使其无法影响到系统核心程序,或者某个用户的文件就不会被其他用户查看或随意修改、删除等,这就起到了安全作用。而在Linux系统中,root用户拥有最高权限,可以访问所有用户的所有文件(不论权限),也可以新增或删除用户,权力直逼小学校长,所以这个账号非常重要。  
 &emsp;&emsp;下面看一个例子:
 ```
-[root@localhost ~# ll
+[root@localhost ~]# ll
 total 80
 drwxrwxrwx 3 root root  4096 Jun 24 00:25 91yunserverspeeder
 -rw-r--r-- 1 root root 63298 Jun 24 00:25 91yunserverspeeder.tar.gz
@@ -65,7 +65,7 @@ d | rwx | rwx | rwx | 3 | root | root
 ![绿色版下载说明](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xshelldwurl.png?raw=true)  
 
 ### 2.2 XShell使用
-- [配置步骤参考链接](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/XShell%E4%BD%BF%E7%94%A8.md)  
+- [配置参考步骤](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/XShell%E4%BD%BF%E7%94%A8.md)  
 
 &emsp;&emsp;进入到操作主页面:  
 
