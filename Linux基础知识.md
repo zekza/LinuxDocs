@@ -67,10 +67,10 @@ d | rwx | rwx | rwx | 3 | root | root
 ### 2.2 XShell使用
 - [配置步骤参考链接](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/XShell%E4%BD%BF%E7%94%A8.md)  
 
-&emsp;&emsp;之后进入到主页面:  
-![使用步骤6](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xs6.png?raw=true)  
+&emsp;&emsp;进入到操作主页面:  
+&emsp;&emsp;&emsp;&emsp;![使用步骤6](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xs6.png?raw=true)  
 
 这里,注意下登录信息下面那一行:
-root|study|~|#
+root | study | ~ | #
 ---|---|---|---
 当前用户|主机名称|当前所在目录|用户类型
