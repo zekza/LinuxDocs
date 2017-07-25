@@ -61,4 +61,4 @@ Linux没有C盘D盘这种说法,而是以`"/"`为根目录,向下扩展。举个
 ### XShell
 - [官方下载地址](https://www.netsarang.com/download/down_xsh.html)
 - [绿色版下载地址](https://www.portablesoft.org/xshell/)
-<center>![绿色版下载]()</center>
+<center>![绿色版下载说明](https://github.com/JustNeedOneMoreStep/LinuxDocs/blob/master/images/xshelldwurl.png?raw=true)</center>
