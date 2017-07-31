@@ -395,7 +395,7 @@ mydir  testdir
 ### 3.8 修改权限--chmod
 之前介绍过权限的概念,那么这里就详细说一下怎么修改文件和目录的权限,其用法如下:
 ```
-chmod [OPTION]... MODE[,MODE]... FILE...
+c[admin@study test]$hmod [OPTION]... MODE[,MODE]... FILE...
 ```
 [OPTION]可以暂时不用,需要用时使用`chmod --help`查看即可,这里给几个示例:
 ```
@@ -447,7 +447,8 @@ root     22454     1  0 08:42 ?        00:00:00 nginx: master process nginx
 nginx    22455 22454  0 08:42 ?        00:00:00 nginx: worker process
 root     22517 22331  0 09:18 pts/5    00:00:00 ps -ef
 ```
-其每一列的对应关系如下:
+其每一列的对应关系如下:  
+
 UID | PID | PPID | C | STIME | TTY | TIME | CMD
 ---|---|---|---|---|---|---|---
 执行用户 | 进程ID | 父进程ID | CPU使用百分比 | 程序启动时间 | 终端机位址 | 运行时长 | 命令名称
