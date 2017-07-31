@@ -396,7 +396,7 @@ mydir  testdir
 ### 3.8 修改权限--chmod
 之前介绍过权限的概念，那么这里就详细说一下怎么修改文件和目录的权限，其用法如下：
 ```
-c[admin@study test]$hmod [OPTION]... MODE[,MODE]... FILE...
+[admin@study test]$ chmod [OPTION]... MODE[,MODE]... FILE...
 ```
 [OPTION]可以暂时不用，需要用时使用`chmod --help`查看即可，这里给几个示例：
 ```
