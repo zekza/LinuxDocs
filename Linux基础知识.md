@@ -656,6 +656,7 @@ Kernel \r on an \m
 ```
 可以看到,我是centos 6.9 的系统版本。  
 Tomcat的安装,大致分为下面几个步骤:  
+
 1. 去官网下载jdk(.rpm)和tomcat(.tar.gz)包,然后上传jdk-xxxx-linux-x64.rpm及apache-tomcat-x.x.xx.tar.gz  
 > 注1:rpm是CentOS,Red Hat等以rpm方式管理的软件安装包,类似于windows下的exe  
 > 注2:tar.gz是一种压缩包格式文件,gz代表以gzip方式压缩  
