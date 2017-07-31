@@ -1,2 +1,2 @@
 # LinuxDocs
-关于Linux的文档
+关于Linux的基础文档
