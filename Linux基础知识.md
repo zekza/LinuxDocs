@@ -656,9 +656,8 @@ Kernel \r on an \m
 ```
 可以看到,我是centos 6.9 的系统版本。  
 Tomcat的安装,大致分为下面几个步骤:  
-
 1. 去官网下载jdk(.rpm)和tomcat(.tar.gz)包,然后上传jdk-xxxx-linux-x64.rpm及apache-tomcat-x.x.xx.tar.gz  
-> 注1:rpm是CentOS,Red Hat等以rpm方式管理的软件安装包,类似于windows下的exe
+> 注1:rpm是CentOS,Red Hat等以rpm方式管理的软件安装包,类似于windows下的exe  
 > 注2:tar.gz是一种压缩包格式文件,gz代表以gzip方式压缩  
 
 2. 使用`yum localinstall 路径/jdk-xxxx-linux-x64.rpm -y`或`rpm -ivh 路径/jdk-xxxx-linux-x64.rpm`安装jdk
@@ -706,7 +705,7 @@ cygwin=false
 参考链接:
 
 - [CentOS下安装JDK笔记](http://www.linuxidc.com/Linux/2015-01/111414.htm)
-- [CentOS 7默认的jdk 1.7升级方法(到1.8) - alternatives的功能](http://blog.csdn.net/evandeng2009/article/details/50145701)  
+- [CentOS 7默认的jdk 1.7升级方法(到1.8) - alternatives的功能](http://blog.csdn.net/evandeng2009/article/details/50145701)
 > 这篇文章中少介绍了一步使用`alternatives --install`安装java配置项的步骤,导致`alternatives --config`找不到我们新安装的java版本,该步骤可参考--[Linux：多个 jdk 的安装和管理 update-alternatives , 或 alternatives](http://blog.csdn.net/netmicrobe/article/details/50440830)
 - [Centos6.5安装tomcat](http://www.cnblogs.com/cldct/articles/5446948.html)
 - [centos7下安装tomcat7](http://www.cnblogs.com/xhkj/p/6545241.html)
