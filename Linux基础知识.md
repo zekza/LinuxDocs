@@ -662,6 +662,7 @@ Tomcat的安装，大致分为下面几个步骤：
 > 注2：tar.gz是一种压缩包格式文件，gz代表以gzip方式压缩  
 
 2. 使用`yum localinstall 路径/jdk-xxxx-linux-x64.rpm -y`或`rpm -ivh 路径/jdk-xxxx-linux-x64.rpm`安装jdk
+> 关于yum和rpm,以及同类程序的关系,可以看看[Linux-软件包管理-wget,rpm,yum,apt-get](http://blog.csdn.net/alexdamiao/article/details/51473713)
 3. 使用alternatives配置java
 ```
 [root@study ~]# alternatives --install <链接> <名称> <路径> <优先级>
@@ -715,5 +716,4 @@ cygwin=false
 ## 6.网址推荐
 - [为什么要学习 Linux？](https://www.zhihu.com/question/20117703)
 - [鳥哥的 Linux 私房菜](http://linux.vbird.org)
-- [Linux-软件包管理-wget,rpm,yum,apt-get](http://blog.csdn.net/alexdamiao/article/details/51473713)
 - [腾讯云开发者实验室](https://cloud.tencent.com/developer/labs)
