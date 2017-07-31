@@ -50,7 +50,7 @@ d | rwx | rwx | rwx | 3 | root | root
 文件类型 | owner权限 | group权限 | others权限 | 文件连结数 | owner | group
   
 其中文件类型列,值为`"-"`时指普通文件,`"d"`指目录。  
-再之后的第一个`root`,就是文件的当前拥有者(owner),第二个root,就是文件所属群组(group),中间`3`指连结数,暂且不管。  
+再之后的第一个`root`,就是文件的当前拥有者(owner),第二个root,就是文件所属群组(group),中间`3`指连结数,也就是有几个快捷方式指向它,暂且不管。  
 
 同时权限`rwx-`还分别对应一个数字:
 - r:4
@@ -68,8 +68,8 @@ Linux和windows管理文件的方式不同,Linux下,是以树形结构来展示�
 
 Linux没有C盘D盘这种说法,而是以`"/"`为根目录,向下扩展。举个例子,对于`arod`目录,那么它的完整路径就是`/home/arod`。
 
-## 2.Linux远程工具
-Linux有很多远程工具,例如Putty、XShell、SecureCRT、SSH Secure Shell Slient、openssh等等,可以自行选择,这里只介绍XShell。  
+## 2.Linux远程登录工具
+Linux有很多远程登录工具,例如Putty、XShell、SecureCRT、SSH Secure Shell Slient、openssh等等,可以自行选择,这里只介绍XShell。  
 
 ### 2.1 XShell下载
 - [官方下载地址](https://www.netsarang.com/download/down_xsh.html)
@@ -101,7 +101,7 @@ command [-options] parameter1 parameter2 ...
 ```
 这其中,`options`是可选的,但使用时需要注意前面有时为`-`,例如`-h`,也有时使用选项的全称,如`--help`。参数之间使用**空格**来区分。
 
-> Tip:假如一个命令你不知道它有哪些参数,可以尝试先用`command -h`或`comman --help`这两种方式来看它的帮助说明。  
+> Tip:假如一个命令你不知道它有哪些参数,可以尝试先用`command -h`或`command --help`这两种方式来看它的帮助说明。  
 
 其次,Linux系统命令对大小写敏感,例如`cd`命令,输入`CD`就会报`command not found`这样的错误。
 
@@ -251,7 +251,7 @@ tail翻译成中文是"尾巴"的意思,所以从名字就可以看出来它的�
 新的输出  2017年 06月 18日 星期日 21:57:02 CST
 新的输出  2017年 06月 18日 星期日 21:58:01 CST
 ```
-由于`tail -f`的持续输出,会导致我们的界面一直在文本的输出状态,如果这时候要退出,那么按`Ctrl+C`即可。
+由于`tail -f`的持续输出,会导致我们的界面一直在文本的输出状态,如果这时候要退出,那么按`[Ctrl]+C`即可。
 
 ### 3.5 编辑文本--nano,vi
 文本编辑是经常会用到的功能,这两个命令本身还是有些复杂,不过我们通常只是简单地使用,毕竟在命令窗口下编辑文本还是有些麻烦,所以可以将文件下载下来进行修改,然后再上传上去覆盖。但是如果只是简单的增减内容,倒是可以直接就用它们俩了。
