@@ -703,7 +703,7 @@ Tomcat的安装，大致分为下面几个步骤：
  + 2           /usr/java/jdk1.7.0_80/bin/java
 按 Enter 保留当前选项[+]，或者键入选项编号：2    #选择需要的jdk版本
 ```
-安装后，使用`java -version`查看jdk版本
+	安装后，使用`java -version`查看jdk版本
 ```
 [root@study ~]# java -version
 java version "1.7.0_80"
@@ -722,7 +722,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
 
 5. 配置tomcat内存
 
-打开tomcat的bin目录下文件catalina.sh，在`cygwin=false`这句话前面前：
+	打开tomcat的bin目录下文件catalina.sh，在`cygwin=false`这句话前面前：
 ```
 # OS specific support. $var _must_ be set to either true or false.
 # 添加下面这一句
