@@ -703,7 +703,9 @@ Tomcat的安装，大致分为下面几个步骤：
  + 2           /usr/java/jdk1.7.0_80/bin/java
 按 Enter 保留当前选项[+]，或者键入选项编号：2    #选择需要的jdk版本
 ```
+
 	安装后，使用`java -version`查看jdk版本
+
 ```
 [root@study ~]# java -version
 java version "1.7.0_80"
