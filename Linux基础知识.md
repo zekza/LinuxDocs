@@ -721,6 +721,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
 > `tar`是Linux中的压缩/解压命令，其选项`z`指`使用gzip压缩的文件`，`x`指`操作为解压`，`v`指`解压时显示所有文件`，`f`后跟`要解压的文件名`，`C`后跟`指定的解压目录`，不指定`C`则默认为当前目录
 
 5. 配置tomcat内存
+
 打开tomcat的bin目录下文件catalina.sh，在`cygwin=false`这句话前面前：
 ```
 # OS specific support. $var _must_ be set to either true or false.
