@@ -677,18 +677,19 @@ C:\Users\Darkness1m>telnet 23.83.251.102 28078
 网址和端口之间需要用空格隔开。用这种方式，如果成功，则在屏幕上显示一片黑。详情可以参考[telnet用法 测试端口号](https://jingyan.baidu.com/article/a3aad71aa9e6efb1fb009694.html)
 
 ## 5.tomcat的安装
-对于不同发行版而言，Tomcat的安装，其实都是大同小异。当然，最好还是按照自己Linux的发行版本在网上去搜索相对应的安装教程。使用`cat /etc/issue`命令可以查看自己的版本：
+对于不同发行版而言，Tomcat的安装，其实都是大同小异。当然，最好还是按照自己Linux的发行版本在网上去搜索相对应的安装教程。CentOS使用`cat /etc/redhat-release`命令可以查看版本，使用`getconf LONG_BIT`可以查看系统位数：
 ```
-[root@localhost test]# cat /etc/issue
+[root@localhost test]# cat /etc/redhat-release
 CentOS release 6.9 (Final)
-Kernel \r on an \m
+[root@localhost test]# getconf LONG_BIT
+64
 ```
-可以看到，我是centos 6.9 的系统版本。  
+可以看到，我是centos 6.9的64位系统版本。  
 Tomcat的安装，大致分为下面几个步骤：  
 
 1. 去官网下载jdk(.rpm)和tomcat(.tar.gz)包(注意对应系统是32位还是64位)，然后上传jdk-xxxx-linux-x64.rpm及apache-tomcat-x.x.xx.tar.gz  
-> 注1：rpm是CentOS，Red Hat等以rpm方式管理的软件安装包，类似于Windows下的exe  
-> 注2：tar.gz是一种压缩包格式文件，gz代表以gzip方式压缩  
+> 注1：.rpm是CentOS，Red Hat等以rpm方式管理的软件安装包，类似于Windows下的.exe文件  
+> 注2：.tar.gz是一种压缩包格式文件，gz代表以gzip方式压缩  
 
 2. 使用`yum localinstall 路径/jdk-xxxx-linux-x64.rpm -y`或`rpm -ivh 路径/jdk-xxxx-linux-x64.rpm`安装jdk
 > 关于yum和rpm,以及同类程序的关系,可以看看[Linux-软件包管理-wget,rpm,yum,apt-get](http://blog.csdn.net/alexdamiao/article/details/51473713)
