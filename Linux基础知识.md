@@ -724,7 +724,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
 #启动tomcat
 [root@study ~]# /usr/local/tomcat/apache-tomcat-7.0.79/bin/startup.sh
 ```
-> `tar`是Linux中的压缩/解压命令，其选项`z`指`使用gzip压缩的文件`，`x`指`操作为解压`，`v`指`解压时显示所有文件`，`f`后跟`要解压的文件名`，`C`后跟`指定的解压目录`，不指定`C`则默认为当前目录
+> `tar`是Linux中的打包/解包命令，其选项`z`指`使用gzip方式压缩的文件`，`x`指`操作为解压`，`v`指`解压时显示所有文件`，`f`后跟`要解压的文件名`，`C`后跟`指定的解压目录`，不指定`C`则默认为当前目录
 
 5. 配置tomcat内存
 
