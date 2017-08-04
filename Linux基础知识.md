@@ -679,12 +679,12 @@ C:\Users\Darkness1m>telnet 23.83.251.102 28078
 ## 5.tomcat的安装
 对于不同发行版而言，Tomcat的安装，其实都是大同小异。当然，最好还是按照自己Linux的发行版本在网上去搜索相对应的安装教程。CentOS使用`cat /etc/redhat-release`命令可以查看版本，使用`getconf LONG_BIT`可以查看系统位数：
 ```
-[root@localhost test]# cat /etc/redhat-release
-CentOS release 6.9 (Final)
-[root@localhost test]# getconf LONG_BIT
+[root@study ~]# cat /etc/redhat-release
+CentOS Linux release 7.3.1611 (Core)
+[root@study ~]# getconf LONG_BIT
 64
 ```
-可以看到，我是centos 6.9的64位系统版本。  
+可以看到，我是centos 7.3的64位系统版本。  
 Tomcat的安装，大致分为下面几个步骤：  
 
 1. 去官网下载jdk(.rpm)和tomcat(.tar.gz)包(注意对应系统是32位还是64位)，然后上传jdk-xxxx-linux-x64.rpm及apache-tomcat-x.x.xx.tar.gz  
