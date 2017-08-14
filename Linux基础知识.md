@@ -679,12 +679,12 @@ C:\Users\Darkness1m>telnet 23.83.251.102 28078
 ## 5.tomcat的安装
 对于不同发行版而言，Tomcat的安装，其实都是大同小异。当然，最好还是按照自己Linux的发行版本在网上去搜索相对应的安装教程。CentOS使用`cat /etc/redhat-release`命令可以查看版本，使用`getconf LONG_BIT`可以查看系统位数：
 ```
-[root@localhost test]# cat /etc/redhat-release
-CentOS release 6.9 (Final)
-[root@localhost test]# getconf LONG_BIT
+[root@study ~]# cat /etc/redhat-release
+CentOS Linux release 7.3.1611 (Core)
+[root@study ~]# getconf LONG_BIT
 64
 ```
-可以看到，我是centos 6.9的64位系统版本。  
+可以看到，我是centos 7.3的64位系统版本。  
 Tomcat的安装，大致分为下面几个步骤：  
 
 1. 去官网下载jdk(.rpm)和tomcat(.tar.gz)包(注意对应系统是32位还是64位)，然后上传jdk-xxxx-linux-x64.rpm及apache-tomcat-x.x.xx.tar.gz  
@@ -724,7 +724,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
 #启动tomcat
 [root@study ~]# /usr/local/tomcat/apache-tomcat-7.0.79/bin/startup.sh
 ```
-> `tar`是Linux中的压缩/解压命令，其选项`z`指`使用gzip压缩的文件`，`x`指`操作为解压`，`v`指`解压时显示所有文件`，`f`后跟`要解压的文件名`，`C`后跟`指定的解压目录`，不指定`C`则默认为当前目录
+> `tar`是Linux中的打包/解包命令，其选项`z`指`使用gzip方式压缩的文件`，`x`指`操作为解压`，`v`指`解压时显示所有文件`，`f`后跟`要解压的文件名`，`C`后跟`指定的解压目录`，不指定`C`则默认为当前目录
 
 5. 配置tomcat内存
 
