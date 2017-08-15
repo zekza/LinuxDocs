@@ -624,7 +624,7 @@ ssh remoteserver -l name
 ssh name@remoteserver -p port
 ssh remoteserver -l name -p port
 ```
-`name`是登录用户名，`-l`后接上登录名，`-p`后接端口号，不写`-p`则默认是22，如果端口有修改，就带上吧，比如示例中的`28078`这个：
+`name`是登录用户名，`-l`后接上登录名，`-p`后接端口号，不写`-p`则默认是22，如果端口有修改，就要带上：
 ```
 [root@localhost ~]# ssh admin@127.0.0.1 -p 22
 admin@127.0.0.1's password: 
