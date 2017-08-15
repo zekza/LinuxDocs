@@ -613,9 +613,9 @@ rz，sz是Linux/Unix同Windows进行ZModem文件传输的命令行工具。至�
 
 简单来说，使用SSH登录可以加强我们系统的安全性，加快传输速度。不知道大家有没有发现，在XShell登录的时候，在页面上有这样的文字：
 ```
-ssh://root:***********@23.83.251.102:28078
+ssh://root:***********@127.0.0.1:12346
 
-ssh://root@23.83.251.102:28078
+ssh://root@127.0.0.1:12346
 ```
 其实，我们配置的XShell登录就是用的SSH。不过这里面我们介绍的是linux内部的命令`ssh`，说远了..Linux中ssh的功能也有很多，所以这里只介绍怎么使用ssh连接远程主机：
 ```
@@ -626,10 +626,10 @@ ssh remoteserver -l name -p port
 ```
 `name`是登录用户名，`-l`后接上登录名，`-p`后接端口号，不写`-p`则默认是22，如果端口有修改，就带上吧，比如示例中的`28078`这个：
 ```
-[root@localhost ~]# ssh admin@23.83.251.102 -p 28078
-admin@23.83.251.102's password: 
+[root@localhost ~]# ssh admin@127.0.0.1 -p 22
+admin@127.0.0.1's password: 
 #密码输入正确后
-Last login: Thu Jul 27 20:45:57 2017 from 182.149.66.15
+Last login: Thu Jul 27 20:45:57 2017 from 127.0.0.1
 [admin@localhost ~]$ 
 ```
 
@@ -672,7 +672,7 @@ telnet和ping一样，也是TCP/IP协议族中的一员，是Internet远程登�
 C:\Users\Darkness1m>telnet www.baidu.com 21
 正在连接www.baidu.com...无法打开到主机的连接。 在端口 21: 连接失败
 
-C:\Users\Darkness1m>telnet 23.83.251.102 28078
+C:\Users\Darkness1m>telnet 127.0.0.1 12346
 ```
 网址和端口之间需要用空格隔开。用这种方式，如果成功，则在屏幕上显示一片黑。详情可以参考[telnet用法 测试端口号](https://jingyan.baidu.com/article/a3aad71aa9e6efb1fb009694.html)
 
